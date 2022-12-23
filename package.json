@@ -2,17 +2,18 @@
   "name": "personal_website",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "nodemon": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gavinvaske/personal_website.git"
   },
   "author": "Gavin Vaske",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1"
+  "bugs": {
+    "url": "https://github.com/gavinvaske/personal_website/issues"
   },
-  "devDependencies": {
-    "nodemon": "^2.0.4"
-  }
+  "homepage": "https://github.com/gavinvaske/personal_website#readme"
 }
