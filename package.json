@@ -2,9 +2,9 @@
   "name": "personal_website",
   "version": "1.0.0",
   "description": "",
-  "main": "application/index.js",
+  "main": "application/app.js",
   "scripts": {
-    "start": "parcel application/index.html",
+    "start": "parcel public/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
