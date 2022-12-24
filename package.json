@@ -2,8 +2,9 @@
   "name": "personal_website",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "application/index.js",
   "scripts": {
+    "start": "parcel application/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/gavinvaske/personal_website/issues"
   },
-  "homepage": "https://github.com/gavinvaske/personal_website#readme"
+  "homepage": "https://github.com/gavinvaske/personal_website#readme",
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "1.12.5",
+    "sass": "1.57.1"
+  }
 }
