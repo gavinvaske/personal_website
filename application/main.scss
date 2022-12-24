@@ -1,5 +1,9 @@
-$background: purple;
+@import url('https://fonts.cdnfonts.com/css/roboto');
+
+$background: #0D1117;
 
 body {
     background-color: $background;
+    font-family: 'roboto';
+    color: white;
 }
